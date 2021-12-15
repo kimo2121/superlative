@@ -1,0 +1,43 @@
+.clouds {
+  position: absolute !important;
+  z-index: 100;
+}
+.right {
+  margin-left: 20%;
+}
+.left {
+  margin-left: -20%;
+}
+.under-right {
+  width: 150px;
+  margin-left: 30%;
+  height: 70px;
+  margin-top: 250px;
+}
+.up-left {
+  margin-top: 350px;
+  margin-left: -240px;
+}
+@media screen and (max-width: 780px) {
+  .right {
+    left: 40%;
+  }
+  .clouds {
+    width: 30%;
+    height: 30%;
+    object-fit: contain;
+  }
+}
+@media screen and (max-width: 600px) {
+  .right {
+    left: 20%;
+  }
+  .left {
+    left: 10%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .under-right {
+    margin-left: 10%;
+  }
+}

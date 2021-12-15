@@ -1,0 +1,81 @@
+@font-face {
+  font-family: bigjohn;
+  src: url(/src/assets/BigJohn/BIG\ JOHN.otf);
+}
+.App {
+  text-align: center;
+  width: 100%;
+  font-family: bigjohn;
+  height: 100%;
+  overflow-x: hidden !important;
+  background-color: transparent !important;
+  background: linear-gradient(
+    #45dbff,
+    #46daff,
+    #4ad0fd,
+    #4fc4f6,
+    #58a0e0,
+    #5e75c7,
+    #6066be,
+    #6062bc
+  );
+}
+.up-right {
+  margin-top: 100px;
+  margin-left: 1%;
+}
+.rainbow {
+  position: absolute;
+  top: 0;
+  width: 17%;
+  left: 0;
+}
+.stars-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 100px;
+}
+.color-logo {
+  position: relative;
+  z-index: 100;
+}
+
+@media screen and (max-width: 768px) {
+  .stars-container {
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: -30%;
+  }
+  .up-right {
+    margin-top: 100px;
+    left: 60%;
+  }
+  .rainbow {
+    width: 30%;
+    /* left: -18%; */
+  }
+}
+@media screen and (max-width: 600px) {
+  .up-right {
+    margin-top: 100px;
+    left: 40%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .rainbow {
+    left: -10%;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .color-logo {
+    width: 200px;
+    height: 200px;
+  }
+  .web-clouds {
+    display: none;
+  }
+}

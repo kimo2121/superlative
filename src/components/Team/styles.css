@@ -1,0 +1,82 @@
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.member {
+  position: relative;
+}
+.member img {
+  margin: 20px;
+  position: relative;
+}
+.member h1 {
+  margin: 0;
+  color: #fff;
+  text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px,
+    #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px;
+}
+.member h3 {
+  color: rgba(255, 255, 255, 0.808);
+  font-style: italic;
+  font-weight: 900 !important;
+  font-family: "Montserrat", sans-serif;
+  margin: 4px 0;
+}
+.hoverable-info {
+  position: absolute;
+  z-index: 5;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  width: 86%;
+  height: 86%;
+  border-radius: 100%;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  margin-top: 6.7%;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  top: 0;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.699);
+}
+.hoverable-info h2 {
+  margin: 0;
+  line-height: 100%;
+}
+.hoverable-info a {
+  text-decoration: none;
+  line-height: 100%;
+  color: white;
+}
+.member:hover .hoverable-info {
+  opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .hoverable-info {
+    width: 60%;
+    font-size: 18px;
+    height: 82%;
+  }
+  .member {
+    margin: 20px 0;
+  }
+  .member img {
+    width: 60%;
+    height: 60%;
+  }
+  .member h1 {
+    font-size: 26px;
+  }
+}

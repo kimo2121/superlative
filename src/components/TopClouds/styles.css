@@ -1,0 +1,13 @@
+.top-cloud {
+  display: none;
+  position: relative;
+}
+.top-cloud img {
+  width: 120px;
+  height: 50px;
+}
+@media screen and (max-width: 576px) {
+  .top-cloud {
+    display: block !important;
+  }
+}

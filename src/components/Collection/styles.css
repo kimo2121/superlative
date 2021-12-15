@@ -1,0 +1,72 @@
+.collection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 290px;
+  margin-bottom: 360px;
+  position: relative;
+  z-index: 10;
+}
+.collection-right {
+  width: 620px;
+  margin-left: 50px;
+  text-align: left;
+}
+.gif {
+  width: 500px;
+  height: 500px;
+  /* object-fit: fill; */
+}
+.collection-right p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.fade-rainbow {
+  position: absolute;
+  width: 100%;
+  right: 0 !important;
+  object-fit: contain;
+  left: 0 !important;
+}
+.fade-rainbow img {
+  width: 100%;
+}
+.collection-right h1 {
+  color: white;
+
+  -webkit-text-stroke: 0.5px black;
+}
+@media screen and (max-width: 1200px) {
+  .collection-right {
+    width: 400px;
+  }
+  .gif {
+    width: 465px;
+    height: 455px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .gif {
+    height: 340px;
+    width: 340px;
+  }
+  .collection-right {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .collection {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .collection-right {
+    width: 75%;
+    margin-left: 0px;
+  }
+  .gif {
+    width: 75%;
+    height: 75%;
+  }
+}

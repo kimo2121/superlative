@@ -1,0 +1,83 @@
+.mint h1 {
+  color: white;
+  text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px,
+    #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px;
+}
+.mint {
+  position: relative;
+  z-index: 10;
+}
+.mint p {
+  color: white;
+  text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px,
+    #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px;
+}
+.counter {
+  display: flex;
+  position: relative;
+  z-index: 1000;
+  justify-content: space-between !important;
+  margin: 0 auto;
+  background-color: #ededed;
+  padding: 0;
+  width: 100px;
+  line-height: 100%;
+  padding-right: 10px;
+  padding-left: 45px;
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid black;
+}
+.counter span {
+  display: flex;
+  align-items: center;
+}
+.counter div {
+  display: flex;
+  flex-direction: column;
+}
+.counter button {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background: transparent;
+}
+.mint-btn {
+  position: relative;
+  font-size: 34px;
+  margin-top: 20px;
+  z-index: 1000;
+}
+.mint-btn p:first-child {
+  color: #fff;
+  text-shadow: #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px,
+    #000 0px 0px 2px, #000 0px 0px 2px, #000 0px 0px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mint-btn p:first-child,
+.mint-btn p:last-child {
+  border: 1px solid black;
+  background-color: #ededed;
+  width: 190px;
+  padding: 0 25px;
+  position: relative;
+  box-sizing: border-box;
+  height: 55px;
+  z-index: 100;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+.mint-btn p:last-child {
+  position: absolute;
+  top: 5px;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  /* top: 5px; */
+}

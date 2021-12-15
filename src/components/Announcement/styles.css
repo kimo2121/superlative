@@ -1,0 +1,40 @@
+.img-headline {
+  display: flex;
+  align-items: center;
+}
+.img-headline h1 {
+  -webkit-text-stroke: 1px black;
+  color: white;
+}
+.img-headline img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.ann-ment h1 {
+  margin: 0;
+}
+.ann-ment {
+  display: flex;
+  width: fit-content;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+.second-headline {
+  -webkit-text-stroke: 1px black;
+  color: white;
+}
+.second-headline span {
+  font-size: 32px;
+}
+.second-headline p {
+  font-size: 20px;
+  line-height: 150%;
+}
+@media screen and (max-width: 768px) {
+  .ann-ment {
+    width: 95%;
+  }
+}
